@@ -1,0 +1,59 @@
+{
+    "teachings": [
+        {
+            "name": "Génie logiciel",
+            "code": "IFT2255"
+        },
+        {
+            "name": "Analyse et conception de logiciel",
+            "code": "IFT3911"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Gentleman"
+        },
+        {
+            "name": "Zenkai"
+        }
+    ],
+    "interests": [
+        { "name": "Génie logiciel" },
+        { "name": "GEODES" },
+        { "name": "MDE", "help": "Model-driven engineering" },
+        { "name": "DSL", "help": "Domain-specific language" },
+        { "name": "Web" },
+        { "name": "Gentleman" },
+        { "name": "UI/UX", "help": "User interface" },
+        { "name": "Editeur projectionnel" }
+    ],
+    "publications": [
+        {
+            "type": "inproceedings",
+            "title": "Gentleman: a light-weight web-based projectional editor generator",
+            "abstract": "In the activity of software development and modeling, users should benefit from as much freedom as possible to express themselves, and this characteristic also extends to the tools they use. In recent years, projectional editors have proven to be a valid approach to obtain such capabilities by enabling language extension and composition and various notations. However, current solutions are heavyweight, platform-specific, and suffer from poor usability. To better support this paradigm and minimize the risk of arbitrary and accidental constraints in expressivity, we introduce Gentleman, a lightweight web-based projectional editor generator. Gentleman allows the user to define a model and projections for its concepts, and use the generated editor to create the model instances. We demonstrate how to define a projectional editor for Mindmap modeling, covering model definition, text and table projection, multi-projection, and styling to showcase its main features.",
+            "authors": [
+                {
+                    "firstName": "Louis-Edouard",
+                    "lastName": "Lafontant",
+                    "email": "louis.edouard.lafontant@umontreal.ca"
+                },
+                {
+                    "firstName": "Eugene",
+                    "lastName": "Syriani",
+                    "email": "syriani@iro.umontreal.ca"
+                }
+            ],
+            "url": "https://doi.org/10.1145/3417990.3421998",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3417990.3421998",
+            "booktitle": "Proceedings of the 23rd ACM/IEEE International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
+            "year": 2020,
+            "conference": {
+                "name": "MODELS 2020",
+                "track": "Tools & Demonstrations",
+                "date": "16-23 October 2020",
+                "venue": "virtual"
+            }
+        }
+    ]
+}
