@@ -410,6 +410,9 @@
     color: #555;
 }
 
+.presentation {
+    margin-bottom: 12px;
+}
 
 .presentation-title {
     display: flex; flex-direction: column;
@@ -417,6 +420,12 @@
     color: #3573dd;
     font-size: 1.6em; font-weight: 500;
     margin-bottom: 4px;
+}
+
+.presentation-event {
+    margin: 0;
+    font-weight: 500; font-style: italic;
+    color: #555;
 }
 
 .presentation-abstract {
